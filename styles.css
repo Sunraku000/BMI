@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* light gray */
+}
+
+.container {
+    max-width: 400px;
+    margin: 120px auto 0 auto;
+    background-color: rgb(209, 175, 175); /* brownish-gray */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px); /* Consider padding in width calculation */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3;
+    color: white; /* Add text color to hover state */
+}
